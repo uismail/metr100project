@@ -7,3 +7,5 @@ import functions
 
 # get the current conditions for Omaha: 349291 is the location key for Omaha
 response = functions.get_conditions(349291)
+
+functions.print_HistoryData()
